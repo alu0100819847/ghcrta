@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "**********A ghcrta*********",
+        "command": "ghcrta:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ghcrta",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ghcrta:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

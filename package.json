@@ -1,0 +1,43 @@
+{
+  "name": "ghcrta",
+  "main": "./lib/ghcrta",
+  "version": "0.8.0",
+  "description": "Plugin used to manage organizations.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "ghcrta:toggle"
+  },
+  "repository": "https://github.com/ULL-ESIT-GRADOII-TFG/tfg-carlos-andres-software",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "deserializers": {
+    "ghcrta/GhcrtaView": "deserializeGhcrtaView"
+  },
+  "configSchema": {
+    "token": {
+      "type": "string",
+      "default": "",
+      "description": "Authentication github token"
+    },
+    "token_name": {
+      "type": "string",
+      "default": "",
+      "description": "Token Name"
+    },
+    "id": {
+      "type": "string",
+      "default": "",
+      "description": "Github token id"
+    }
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "octonode": "^0.9.5",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "simple-git": "^1.107.0"
+  }
+}

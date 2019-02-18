@@ -1,0 +1,25 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "syntax-variables";
+
+.ghcrta {
+  @font-size: 20px;
+}
+
+.repos{
+  @text-color: #aaa;
+}
+
+&-header {
+  font-weight: 600;
+  color: @text-color-subtle;
+  padding: @component-padding/2;
+  border-bottom: 1px solid @base-border-color;
+
+  &::-webkit-details-marker {
+    color: @text-color-subtle;
+  }
+}
