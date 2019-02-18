@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "ghcrta:toggle"
   },
-  "repository": "https://github.com/ULL-ESIT-GRADOII-TFG/tfg-carlos-andres-software",
+  "repository": "https://github.com/alu0100819847/ghcrta",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
