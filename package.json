@@ -1,7 +1,7 @@
 {
   "name": "ghcrta",
   "main": "./lib/ghcrta",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "Plugin used to manage organizations.",
   "keywords": [],
   "activationCommands": {
