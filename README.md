@@ -32,3 +32,7 @@ In case of have made a search, only the repositories found will be cloned.
 ### Working Directory.
 
 The system desktop will be taken as the default directory. If we are in a project, the project directory will be taken as working directory. If we want to set other directory as working directory, we can modify it in the DIR button. We can find it next to the search input.
+
+### Atom package repository
+
+[GHCRTA](https://github.com/alu0100819847/ghcrta).
